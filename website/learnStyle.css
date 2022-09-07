@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+body{
+    background: white;
+}
+nav{
+  
+    position : absolute;
+    top: 0;
+    bottom: 0;
+    height: 150%;
+    left: 0;
+    background: white;
+    width: 90px;
+    overflow: hidden;
+    transition:  width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+/*nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}*/
+.logo{
+    text-align: center;
+    display: flex; 
+    transition: all 0.5s ease;
+    margin: 10px 0 0 13px;
+}
+.logo img{
+    width:45px;
+    height: 45px;
+    
+}
+.logo span{
+    font-weight: 500;
+    padding-top: 2.5px;
+    padding-left: 12px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+a{
+    position: relative;
+    color: rgb(109, 106, 96);
+    background: white;
+    font-size: 15px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+a::hover{
+    background: rgb(107, 105, 105);
+}
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+}
+.item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+    
+}
+/*.logout{
+    position: absolute;
+    bottom: 0;
+}*/
+
+.containerCards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-right: -60px;
+    align-items: center;
+    flex-direction: row;
+   
+}
+.containerCards .card{
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   min-width: 520px;
+   height: 240px;
+   box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
+               inset -5px -5px 5px rgba(255,255,255,0.5),
+               5px 5px 5px rgba(0,0,0,0.05),
+               inset -5px -5px 5px rgba(255,255,255,0.5);
+   border-radius: 15px;
+   margin: 30px;
+}
+.containerCards .card .box{
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   right: 20px;
+   bottom: 20px;
+   background-color: white;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+   border-radius: 15px;
+   display: flex;
+   transition: 0.5s;
+   justify-content: center;
+   align-items: center;
+
+}
+.containerCards .card:hover .box{
+    transform: translateY(-2px);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50);
+    background: black;
+   /* background: linear-gradient(60deg,
+    rgb(2, 2, 1),
+    white);
+    /*background-color: rgb(175, 134, 57);*/
+}
+.containerCards .card .box .content{
+   padding: 20px;
+   text-align: center;
+
+}
+.containerCards .card .box .content h2{
+   position: absolute;
+   top:  5px;
+   right: 30px;
+   font-size: 5em;
+   color:rgb(235, 225, 225);
+   transition: 0.3s;
+   pointer-events: none;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.containerCards .card:hover .box .content h2,
+.containerCards .card:hover .box .content h3,
+.containerCards .card:hover .box .content p{
+   
+   color: white;
+  
+}
+.containerCards .card .box .content h3{
+   font-size: 2em;
+   color: rgb(128, 118, 118);
+   z-index: 1;
+   transition: 0.5s;
+}
+.containerCards .card .box .content p{
+   font-size: 1em;
+   color: black;
+   font-weight: 500;
+   z-index: 1;
+   transition: 0.5s;
+}
+.containerCards .card .box .content a{
+  position: relative;
+  display: inline-block;
+  padding: 8px 1px;
+  width: 170px;
+  background: rgb(66, 63, 63);
+  margin-top: 80px;
+  transition: 0.3s;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+}
+.containerCards .card .box .content a:hover{
+   
+    background: rgb(90, 167, 31);
+    margin-top: 80px;
+    
+    border-radius: 10px;
+    color: white;
+  }
+/*footer {
+    text-align: center;
+   padding-top: 97.7vh;
+    color: white;
+  }
+ .bottom {
+    background: black;
+    width: 100vw;
+    padding: 2.1px;
+    text-align: center;
+    
+ }
+ 
+ .bottom p {
+    color: azure;
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+ 
+ .bottom span {
+    text-transform: uppercase;
+    opacity: 0.5;
+ }*/

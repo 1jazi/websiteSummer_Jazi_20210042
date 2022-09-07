@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+* {
+
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+header {
+   width: 100%;
+   height: 80px;
+   display: block;
+   background-color: white;
+
+}
+
+/*body{
+   background-image: url('./c.jpeg') ;
+   background-size: cover;
+   background-repeat: no-repeat;
+}*/
+.main {
+   width: 100%;
+   height: 100%;
+   position: relative;
+   padding: 0px 5%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 160px;
+}
+
+.h11 .p1 span {
+   text-transform: uppercase;
+   opacity: 0.5;
+   font-weight: 700;
+}
+
+.start:hover {
+   background-color: white;
+
+   color: rgb(175, 134, 57);
+
+   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.start {
+   background-color: rgb(175, 134, 57);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 25px;
+   font-style: unset;
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   color: white;
+   font-weight: 700;
+   text-align: center;
+   position: relative;
+   border: none;
+   height: 50px;
+   transition: 0.5s;
+   cursor: pointer;
+   width: 180px;
+   border-radius: 2px;
+
+}
+
+.exam:hover {
+
+   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.exam {
+   background-color: white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 23px;
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   color: rgb(175, 134, 57);
+   border: none;
+   font-weight: 700;
+   height: 50px;
+   width: 180px;
+   position: relative;
+   border-radius: 3px;
+   cursor: pointer;
+   margin-left: 40px;
+}
+
+.signup {
+
+   background-color: white;
+   border-color: rgb(175, 134, 57);
+   font-size: 15px;
+   font-weight: 700;
+   text-decoration: none;
+   list-style-type: none;
+   display: inline-block;
+   border-style: solid;
+   transition-duration: 0.4s;
+   border-width: 1px;
+   color: rgb(175, 134, 57);
+   height: 30px;
+   width: 80px;
+   border-radius: 2px;
+   cursor: pointer;
+}
+
+.signup:hover {
+   background-color: rgb(175, 134, 57);
+   border-color: white;
+   font-size: 15px;
+   color: white;
+}
+
+nav {
+   padding: 25px 1%;
+   height: 100%;
+   display: table;
+   float: right;
+}
+
+.logo .mainlogo {
+   margin-top: -194px;
+   padding-top: 100px;
+   padding-left: 10px;
+   float: left;
+}
+.logo .mainlogo span{
+  color: rgb(63, 129, 13);
+  font-weight: 1000;
+}
+
+
+.homepages pages li {
+   list-style: none;
+
+   display: inline-block;
+   margin-left: 40px;
+   text-decoration: none;
+}
+
+.homepages pages li a {
+   text-decoration: none;
+   color: rgb(233, 84, 32);
+
+}
+
+h1 {
+   font-family: 'Courier New', Courier, monospace;
+   color: rgba(0, 0, 0, 0.8);
+   text-align: center;
+   padding-top: 120px;
+   justify-content: right;
+}
+
+.p1 {
+
+   font-family: 'Courier New', Courier, monospace;
+   color: rgba(77, 43, 61, 0.8);
+   text-align: center;
+   padding-top: 70px;
+   justify-content: center;
+
+}
+
+section {
+   position: relative;
+   width: 49.7%;
+   height: 150%;
+   padding: -150px;
+}
+
+section img {
+   position: absolute;
+   top: 10%;
+   left: 100%;
+   transform: translate(-50%, 10%);
+   width: 740px;
+}
+
+footer {
+   position: absolute;
+
+   bottom: 0;
+
+   background: linear-gradient(60deg,
+         rgb(63, 129, 13),
+         white);
+   height: auto;
+   width: 100vw;
+   font-family: 'Courier New', Courier, monospace;
+   padding-top: 10px;
+   color: white;
+}
+
+.footer_c {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.footer h3 {
+   font-size: 2rem;
+   margin-top: 15px;
+   font-weight: 600;
+   text-transform: capitalize;
+   line-height: 3rem;
+}
+
+.social {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 1rem 0 3rem 0;
+}
+
+.social li {
+   margin: 0 10px;
+}
+
+.social a {
+   text-decoration: none;
+   color: white;
+   transition: 0.5s;
+}
+
+.social a i {
+   font-size: 1.1rem;
+   margin-top: 15px;
+}
+
+.social a:hover li {
+   color: azure;
+}
+
+.bottom {
+   background: linear-gradient(60deg,
+         rgb(63, 129, 13),
+         white);
+   width: 100vw;
+   padding: 2px;
+   text-align: center;
+}
+
+.bottom p {
+   color: azure;
+   font-size: 15px;
+   font-weight: 600;
+   word-spacing: 2px;
+   text-transform: capitalize;
+}
+
+.bottom span {
+   text-transform: uppercase;
+   font-weight: 700;
+   opacity: 0.5;
+}
+
+@media (max-width: 480px) {
+ 
+
+}
